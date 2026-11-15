@@ -1,0 +1,14 @@
+{
+  "name": "agent-games-gatekeeper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Proof Gatekeeper agent — zkVerify Agent Games Season 01",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.3"
+  }
+}

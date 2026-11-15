@@ -1,0 +1,12 @@
+name = "agent-gatekeeper"
+main = "src/worker.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gatekeeper-state"
+database_id = "42fef06e-6fcb-451c-a956-659cb1ba305a"
+
+[vars]
+AGENT_PATH = "/agent"
